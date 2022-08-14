@@ -1,0 +1,9 @@
+.banner-wrapper {
+    position: absolute;
+    width: 85%;
+    height: 185px;
+    border: 1px solid #002525;
+    background-color: #002525;
+    left: 7.5%;
+    top: 72%;
+}
