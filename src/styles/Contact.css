@@ -1,0 +1,40 @@
+.wrapper-contact {
+    display: flex;
+    flex-direction: column;
+    height: 45vh;
+    background-color: #002525;
+}
+
+.wrapper-contact > div {
+    padding: 0 7.5% 0 7.5%;
+    padding-top: 1%;
+}
+
+.contact-title {
+    flex: 20%;  
+}
+
+.contact-title h1 {
+    font-size: 45px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.contact-body {
+    flex: 80%;
+}
+
+.crow {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.contact-body > div {
+    flex: 50%;
+    background-color: bisque;
+}
+
+.contact-details {
+    flex: 50%;
+}

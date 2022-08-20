@@ -1,0 +1,40 @@
+.service-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 55vh;
+    background-color: #002525;
+}
+
+.service-box {
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+    padding-top: 1%;
+}
+
+.service-title {
+    margin: 10px 0 10px 0;
+}
+
+.service-title h1 {
+    font-size: 45px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.service-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px 0 10px 0;
+    flex: 40%;
+    align-content: space-between;
+}
+
+.service-row > div {
+    background-color: #f1f1f1;
+    width:350px;
+    margin: 10px 0 10px 0;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}

@@ -1,0 +1,29 @@
+.wrapper-clients {
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+}
+
+.wrapper-clients > div {
+    padding: 0 7.5% 0 7.5%;
+    padding-top: 1%;
+}
+
+.top-client {
+    flex: 20%;
+}
+
+.top-client h1 {
+    font-size: 45px;
+    font-weight: 700;
+    color: #002525;
+}
+
+.middle-client {
+    flex: 60%;
+}
+
+.bottom-client {
+    flex: 20%;
+    background-color: beige;
+}
