@@ -4,6 +4,7 @@ import Aboutus from '../About-Us/index';
 import Service from '../Our-Services/index';
 import Client from '../../components/Clients';
 import Contact from '../Contacts/index';
+import Quote from '../../components/Quote';
 
 function index() {
   return (
@@ -13,6 +14,7 @@ function index() {
     <div><Service /></div>
     <div><Client /></div>
     <div><Contact /></div>
+    <div><Quote /></div>
     </>
   )
 }

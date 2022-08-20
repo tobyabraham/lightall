@@ -1,13 +1,13 @@
 .wrapper-contact {
     display: flex;
     flex-direction: column;
-    height: 45vh;
+    height: 50vh;
     background-color: #002525;
 }
 
 .wrapper-contact > div {
-    padding: 0 7.5% 0 7.5%;
-    padding-top: 1%;
+    padding: 0 0 0 7.5%;
+    padding-top: 0%;
 }
 
 .contact-title {
@@ -20,21 +20,21 @@
     color: #ffffff;
 }
 
-.contact-body {
-    flex: 80%;
-}
-
 .crow {
     display: flex;
     flex-direction: row;
     width: 100%;
-}
-
-.contact-body > div {
-    flex: 50%;
-    background-color: bisque;
+    height: 100%;
 }
 
 .contact-details {
-    flex: 50%;
+    flex: 40%;
+    padding-top: 1%;
+}
+
+.contact-map {
+    flex: 60%;
+    background-color: aquamarine;
+    -webkit-clip-path: polygon(37% 0, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(37% 0, 100% 0, 100% 100%, 0 100%);
 }
