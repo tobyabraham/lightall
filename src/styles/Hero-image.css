@@ -27,7 +27,7 @@
 }
 
 .hero .content h1 {
-    font-size: 60px;
+    font-size: 3.75em;
     font-weight: 600;
 }
 
@@ -50,3 +50,38 @@
     left: 7.5%;
 }
 
+@media screen and (max-width: 1040px) {
+    .hero {
+        width: 100%;
+    }
+
+    .mask {
+        height: 75vh;
+    }
+
+    .hero .content {
+        position: absolute; 
+        top: 19%;
+        left: 7.5%;
+        width: 100%;
+    }
+    .hero .content h1 {
+        font-size: 3.0em;
+        font-weight: 600;
+    }
+    
+    .hero .content p {
+        padding-top: 15px;
+        width: 80%;
+    }
+
+    .hero .heronav {
+        top: 50px;
+    }
+
+    .btnwrapper {
+        position: absolute;
+        top: 55%;
+        left: 7.5%;
+    }
+}

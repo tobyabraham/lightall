@@ -3,7 +3,7 @@ import '../styles/Hero-image.css';
 import Navbar from './Navbar';
 import mainImg from '../assets/images/heroimg.jpg';
 import { Link } from 'react-router-dom';
-import Banner from './Banner'
+import Banner from './Banner';
 
 function Heroimage() {
   return (

@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import '../styles/Navbar.css';
 import { FaBars, FaTimes } from 'react-icons/fa';
 
@@ -9,7 +9,7 @@ function Navbar() {
   return (
     <div className='nav-container'>
         <Link to="/">
-            <hi>Lightall</hi>
+            <h1>Lightall</h1>
         </Link>
         <ul className={expandNavbar ? 'nav-menu active' : 'nav-menu'}>
             <li>

@@ -1,0 +1,46 @@
+.wrapper-testimonial {
+    display: flex;
+    flex-direction: column;
+    height: 65vh;
+    background-color: #002525;
+}
+
+.wrapper-testimonial > div {
+    padding: 0 7.5% 0 7.5%;
+    padding-top: 1%;
+}
+
+.testimonial-header {
+    flex: 20%;
+}
+
+.testimonial-header h1 {
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.testimonial-body {
+    flex: 80%;
+}
+
+.t-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px 0 10px 0;
+}
+
+.t-box {
+    background-color: blanchedalmond; 
+    text-align: center;
+    margin: 0 25px 0 25px;
+}
+
+.section-header h1 {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.section-body {
+    margin-top: 10px;
+}

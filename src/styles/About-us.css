@@ -14,7 +14,6 @@
 }
 
 .left h1 {
-    font-size: 45px;
     font-weight: 700;
     color: #002525;
 }
@@ -40,5 +39,14 @@
     background-size: cover;
     background-position: center;
     object-fit: cover;
+}
 
+@media screen and (max-width: 1040px) {
+    .aboutus-wrapper {
+        flex-direction: column;
+    }
+
+    .left {
+        padding-right: 7.5%;
+    }
 }
