@@ -7,6 +7,7 @@ import Contact from '../Contacts/index';
 import Quote from '../../components/Quote';
 import Testimonial from '../../components/Testimonial';
 import Footer from '../../components/Footer';
+import Project from '../Projects/index';
 
 function index() {
   return (
@@ -14,6 +15,7 @@ function index() {
     <div><Heroimage /></div>
     <div><Aboutus /></div>
     <div><Service /></div>
+    <div><Project /></div>
     <div><Client /></div>
     <div><Contact /></div>
     <div><Quote /></div>

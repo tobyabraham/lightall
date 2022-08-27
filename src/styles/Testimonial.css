@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     height: 65vh;
-    background-color: #002525;
+    background-color: #ffffff;
 }
 
 .wrapper-testimonial > div {
@@ -16,7 +16,7 @@
 
 .testimonial-header h1 {
     font-weight: 700;
-    color: #FFFFFF;
+    color: #002525;
 }
 
 .testimonial-body {

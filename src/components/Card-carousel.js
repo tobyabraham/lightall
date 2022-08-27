@@ -90,7 +90,6 @@ class DraggingEvent {
   }
 }
 
-
 class CardCarousel extends DraggingEvent {
   constructor(container, controller = undefined) {
     super(container)
@@ -146,8 +145,7 @@ class CardCarousel extends DraggingEvent {
       })
     }
   }
-  
-  
+   
   controller(e) {
     const temp = {...this.xScale};
       
@@ -321,7 +319,7 @@ class CardCarousel extends DraggingEvent {
     }
   }
 }
-new CardCarousel(cardsContainer)
+//new CardCarousel(cardsContainer)
   
 return (
     <div className='container'>

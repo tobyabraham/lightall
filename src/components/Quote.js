@@ -9,9 +9,9 @@ function Quote() {
         </div>
         <div className='quote-body'>
             <form className='quote-form'>
-                <input type="text" class="form-control" id="name" placeholder="Your name" name="name" />
-                <input type="text" class="form-control" id="phone" placeholder="Your phone number" name="phone-number" />
-                <input type="text" class="form-control" id="prdtyp" placeholder="Product type" name="product-type" />
+                <div className='slantdiv'><input type="text" class="form-control" id="name" placeholder="Your name" name="name" /></div>
+                <div className='slantdiv'><input type="text" class="form-control" id="phone" placeholder="Your phone number" name="phone-number" /></div>
+                <div className='slantdiv'><input type="text" class="form-control" id="prdtyp" placeholder="Product type" name="product-type" /></div>
                 <button type="button" class="quote-btn">Get Quote</button>
             </form>
         </div>

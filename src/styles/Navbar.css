@@ -7,6 +7,7 @@
 
 .nav-container h1 {
     font-size: 22px;
+    color: black;
 }
 
 .nav-menu {
@@ -15,11 +16,13 @@
 
 .nav-menu li {
     padding: 0 1rem;
+    color: black;
 }
 
 .nav-menu li a {
     font-size: 1.2rem;
     font-weight: 500;
+    color: black;
 }
 
 .hamburger {

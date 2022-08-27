@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     height: 40vh;
+    background-color: #002525;
 }
 
 .wrapper-quote > div {
@@ -19,14 +20,14 @@
 
 .quote-header h1 {
     font-weight: 700;
-    color: #002525;
+    color: #ffffff;
 }
 
 .quote-form {
     display: flex;
     justify-content: space-evenly;
     align-content: center;
-    padding: 50px;
+    padding: 10px;
 }
 
 .form-control {
@@ -35,8 +36,19 @@
 }
 
 .quote-btn {
-    width: 100px;
+    width: 400px;
     background: #6CB4B9;
     border: 0;
     color: white;
+    border-radius: 20px;
+}
+
+.slantdiv {
+    width: 120%;
+    transform: skewX(-20deg);
+}
+
+.slantdiv > input {
+    padding: 10px;
+    width: 20rem;
 }

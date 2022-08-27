@@ -1,5 +1,14 @@
 .wrapper-footer {
     display: flex;
     flex-direction: column;
-    height: 30vh;
+    height: 10vh;
+    background-color: #002525;
+    margin-top: 1px;
+}
+
+.footer-body {
+    text-align: center;
+    color: #ffffff;
+    font-size: 19px;
+    margin-top: 20px;
 }

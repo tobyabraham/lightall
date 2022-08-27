@@ -1,0 +1,30 @@
+.project-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    background-color: #ffffff;
+}
+
+.project-wrapper > div {
+    padding: 0 7.5% 0 7.5%;
+    padding-top: 1%;
+}
+
+.project-title {
+    flex: 20%;
+}
+
+.project-title h1 {
+    font-weight: 700;
+    color: #002525;
+}
+
+.project-carousel {
+    flex: 80%;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
