@@ -10,10 +10,7 @@ function index() {
         </div>
         <div className='project-carousel'>
             <div className='card-container'>
-                <div><MagicCard /></div>
-                <div><MagicCard /></div>
-                <div><MagicCard /></div>
-                <div><MagicCard /></div>
+                <MagicCard />
             </div> 
         </div>
     </div>

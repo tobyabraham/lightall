@@ -20,6 +20,7 @@
 
 .quote-header h1 {
     font-weight: 700;
+    font-size: 1.8em;
     color: #ffffff;
 }
 
@@ -51,4 +52,24 @@
 .slantdiv > input {
     padding: 10px;
     width: 20rem;
+}
+
+@media screen and (max-width: 1040px) {
+    .quote-form {
+        flex-direction: column;
+        justify-content: space-between;
+        align-content: space-between;
+        gap: 20px;
+    }
+
+    .slantdiv {
+        width: 100%;
+        transform: skewX(0deg);
+    }
+
+    .quote-btn {
+        width: 100%;
+        padding: 15px;
+        font-size: 1.3em;
+    }
 }

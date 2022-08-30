@@ -11,20 +11,30 @@
 }
 
 .project-title {
-    flex: 20%;
+    flex: 12%;
 }
 
 .project-title h1 {
     font-weight: 700;
+    font-size: 1.8em;
     color: #002525;
 }
 
 .project-carousel {
-    flex: 80%;
+    flex: 83%;
 }
 
 .card-container {
-    display: flex;
-    flex-direction: row;
-    justify-content:space-between;
+    
+}
+
+@media screen and (max-width: 1040px) {
+    .project-wrapper > div {
+        padding: 0 0 0 0;
+    }
+
+    .project-title {
+        margin-left: 7.5%;
+        margin-top: 1.5%;
+    }
 }

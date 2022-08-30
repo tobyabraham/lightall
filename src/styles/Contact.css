@@ -17,6 +17,7 @@
 
 .contact-title h1 {
     font-weight: 700;
+    font-size: 1.8em;
 }
 
 .contact-title p {
@@ -54,4 +55,28 @@
 .contact-body > p {
     color: #002525;
     padding-top: 40px;
+}
+
+@media screen and (max-width: 1040px) {
+    .wrapper-contact {
+        display: flex;
+        flex-direction: row;
+        height: 53vh;
+    }
+
+    .wrapper-contact > div {
+        padding: 0 7.5% 0 7.5%;
+        padding-top: 2.8%;
+    }
+    
+
+    .crow {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-map {
+        display: none;
+        
+    }
 }

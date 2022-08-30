@@ -59,5 +59,26 @@
         position: relative;
         width: 100%;
         left: 0;
+        height: 280px;
+    }
+
+    .banner-box {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-content: center;
+    }
+
+    .icon-wrapper {
+        width: 65px;
+        height: 65px;
+    }
+
+    .icon-wrapper > img{
+        width: 65px;
+        height: 65px;
+    }
+
+    .banner-container {
+        padding-top: 20px;
     }
 }

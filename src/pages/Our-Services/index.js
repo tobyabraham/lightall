@@ -7,7 +7,9 @@ import analysis from '../../assets/images/analysis.png';
 
 function index() {
   return (
-    <div className='service-wrapper service-box'>
+    <div
+    name="service"  
+    className='service-wrapper service-box'>
       <div className='service-title'>
         <h1>Our Services</h1>
       </div>

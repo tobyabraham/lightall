@@ -18,6 +18,7 @@
 .service-title h1 {
     font-weight: 700;
     color: #ffffff;
+    font-size: 1.8em;
 }
 
 .service-row {
@@ -37,17 +38,18 @@
     line-height: 75px;
     font-size: 30px;
     font-size: 1em;
+    height: 80%;
 }
 
 .service-box > p {
     margin-top: 20px;
-    font-size: 20px;
+    font-size: 19px;
     font-weight: 700;
     color: #002525;
 }
 
 .service-icon {
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 .service-icon > img {
@@ -58,6 +60,7 @@
 @media screen and (max-width: 1040px) {
     .service-wrapper {
         position: relative;
+        height: 82vh;
     }
 
     .service-row {
@@ -74,5 +77,13 @@
         text-align: center;
         line-height: 75px;
         font-size: 30px;
+    }
+    .service-icon > img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .service-icon {
+        margin-top: 10px;
     }
 }

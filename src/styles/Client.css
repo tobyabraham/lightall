@@ -16,6 +16,7 @@
 
 .top-client h1 {
     font-weight: 700;
+    font-size: 1.8em;
     color: #ffffff;
 }
 
@@ -30,7 +31,7 @@
 .client-logo-cont {
     display: flex;
     flex-direction: row;
-    align-content: space-between;
+    align-content: center;
     justify-content: space-between;
 }
 
@@ -41,5 +42,23 @@
 
 .bottom-client {
     flex: 20%;
-    background-color: beige;
+    color: beige;
+}
+
+@media screen and (max-width: 1040px) {
+    .wrapper-clients {
+        height: 30vh;
+    }
+
+    .wrapper-clients > div {
+        padding-top: 2%;
+    }
+
+    .client-logo {
+        margin-top: 1px;
+    }
+
+    .client-logo > img {
+        height: 120px;
+    }
 }
