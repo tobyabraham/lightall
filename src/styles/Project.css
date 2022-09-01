@@ -28,7 +28,7 @@
     
 }
 
-@media screen and (max-width: 1040px) {
+@media screen and (max-width: 480px) {
     .project-wrapper > div {
         padding: 0 0 0 0;
     }

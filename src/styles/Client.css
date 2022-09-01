@@ -45,7 +45,7 @@
     color: beige;
 }
 
-@media screen and (max-width: 1040px) {
+@media screen and (max-width: 480px) {
     .wrapper-clients {
         height: 30vh;
     }

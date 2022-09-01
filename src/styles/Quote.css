@@ -54,7 +54,7 @@
     width: 20rem;
 }
 
-@media screen and (max-width: 1040px) {
+@media screen and (max-width: 480px) {
     .quote-form {
         flex-direction: column;
         justify-content: space-between;

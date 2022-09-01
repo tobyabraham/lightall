@@ -1,6 +1,7 @@
 {
   "name": "lightall",
   "version": "0.1.0",
+  "homepage": "https://tobyabraham.github.io/lightall",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.0",
@@ -27,6 +28,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -59,6 +62,7 @@
     "babel-loader": "^8.2.5",
     "css-loader": "^6.7.1",
     "file-loader": "^6.2.0",
+    "gh-pages": "^4.0.0",
     "html-webpack-plugin": "^5.5.0",
     "style-loader": "^3.3.1",
     "webpack": "^5.74.0",

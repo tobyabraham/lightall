@@ -57,7 +57,7 @@
     padding-top: 40px;
 }
 
-@media screen and (max-width: 1040px) {
+@media screen and (max-width: 480px) {
     .wrapper-contact {
         display: flex;
         flex-direction: row;

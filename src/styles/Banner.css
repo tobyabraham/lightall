@@ -54,7 +54,7 @@
     font-size: 14px;  
 }
 
-@media screen and (max-width: 1040px) {
+@media screen and (max-width: 480px) {
     .banner-wrapper {
         position: relative;
         width: 100%;

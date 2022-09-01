@@ -47,8 +47,7 @@ function Navbar() {
         </ul>
         <div className='hamburger' onClick={handleClick}>
             {expandNavbar ? (<FaTimes size={20} style = {{ color: "#FFF" }} />) :
-            (<FaBars size={20} style = {{ color: "#000" }} />)}
-            
+            (<FaBars size={20} style = {{ color: "#FFF" }} />)}    
         </div>
     </div>
   )

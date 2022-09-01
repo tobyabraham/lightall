@@ -57,7 +57,7 @@
     height: 100px;
 }
 
-@media screen and (max-width: 1040px) {
+@media screen and (max-width: 480px) {
     .service-wrapper {
         position: relative;
         height: 82vh;

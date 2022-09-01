@@ -94,7 +94,7 @@
     margin-left: 25px;
   }
 
-  @media screen and (max-width: 1040px) {
+  @media screen and (max-width: 480px) {
     .mflex {
       width: 100%;
     }
