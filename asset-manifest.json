@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/lightall/static/css/main.e5192894.css",
+    "main.js": "/lightall/static/js/main.69f81563.js",
+    "static/media/featimage.jpg": "/lightall/static/media/featimage.5724ffa61c4fffd40396.jpg",
+    "static/media/heroimg.jpg": "/lightall/static/media/heroimg.1761471f66a83934bb5a.jpg",
+    "static/media/easy-installation.png": "/lightall/static/media/easy-installation.cf7bc9872e203ad97168.png",
+    "static/media/solar-cell.png": "/lightall/static/media/solar-cell.f56576d902261efdeeb1.png",
+    "static/media/analysis.png": "/lightall/static/media/analysis.5a794e04012af37eae74.png",
+    "static/media/assembly-point.png": "/lightall/static/media/assembly-point.d5a2bdcda093d72d6a8d.png",
+    "static/media/migration.png": "/lightall/static/media/migration.ea358051a0b203372f04.png",
+    "static/media/customer-service.png": "/lightall/static/media/customer-service.68d6f96617f0aa6c0b24.png",
+    "static/media/growth.png": "/lightall/static/media/growth.16504038721211e7e3ec.png",
+    "static/media/Logo-Design1.webp": "/lightall/static/media/Logo-Design1.1a6f570b9f10facc6fa6.webp",
+    "static/media/slick.svg": "/lightall/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/lightall/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/lightall/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/lightall/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/lightall/index.html",
+    "static/media/right-arrow.svg": "/lightall/static/media/right-arrow.c040b56c06f7e41ec007b359432c7aa9.svg",
+    "static/media/left-arrow.svg": "/lightall/static/media/left-arrow.eebfd3c804ed5bd42758743c4673a793.svg",
+    "main.e5192894.css.map": "/lightall/static/css/main.e5192894.css.map",
+    "main.69f81563.js.map": "/lightall/static/js/main.69f81563.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e5192894.css",
+    "static/js/main.69f81563.js"
+  ]
+}
