@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     height: 40vh;
-    background-color: #002525;
+    background-color: #D6E9FD;
 }
 
 .wrapper-quote > div {
@@ -21,7 +21,7 @@
 .quote-header h1 {
     font-weight: 700;
     font-size: 1.8em;
-    color: #ffffff;
+    color: #050B18;
 }
 
 .quote-form {
@@ -38,7 +38,7 @@
 
 .quote-btn {
     width: 400px;
-    background: #6CB4B9;
+    background: #050B18;
     border: 0;
     color: white;
     border-radius: 20px;
@@ -52,6 +52,31 @@
 .slantdiv > input {
     padding: 10px;
     width: 20rem;
+}
+
+@media screen and (max-width: 840px) {
+    .quote-form {
+        flex-direction: column;
+        justify-content: space-between;
+        align-content: space-between;
+        gap: 20px;
+    }
+
+    .slantdiv {
+        width: 100%;
+        transform: skewX(0deg);
+    }
+
+    .slantdiv > input {
+        padding: 10px;
+        width: 100%;
+    }
+
+    .quote-btn {
+        width: 100%;
+        padding: 15px;
+        font-size: 1.3em;
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -71,5 +96,10 @@
         width: 100%;
         padding: 15px;
         font-size: 1.3em;
+    }
+
+    .slantdiv > input {
+        padding: 10px;
+        width: 100%;
     }
 }

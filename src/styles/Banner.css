@@ -2,8 +2,8 @@
     position: absolute;
     width: 85%;
     height: 164px;
-    border: 1px solid #002525;
-    background-color: #002525;
+    border: 1px solid #D6E9FD;
+    background-color: #D6E9FD;
     left: 7.5%;
     top: 75%;
 }
@@ -46,12 +46,48 @@
 .icon-text {
     padding-top: 20px;
     margin-left: 110px;
-    color: #ffffff;
+    color: #050B18;
 }
 
 .icon-text > p {
     padding-top: 4px;
     font-size: 14px;  
+}
+
+@media screen and (max-width: 840px) {
+    .banner-wrapper {
+        position: relative;
+        width: 100%;
+        left: 0;
+        height: 170px;
+    }
+
+    .banner-content {
+        padding-left: 20px;
+    }
+
+    .icon-wrapper {
+        width: 63px;
+        height: 63px;
+    }
+
+    .icon-wrapper > img{
+        width: 63px;
+        height: 63px;
+    }
+
+    .icon-text {
+        margin-left: 70px;
+        margin-right: 10px;
+        padding-top: 15px;
+        color: #050B18;
+    }
+    
+    .icon-text > p {
+        padding-top: 4px;
+        font-size: 14px;  
+    }
+
 }
 
 @media screen and (max-width: 480px) {

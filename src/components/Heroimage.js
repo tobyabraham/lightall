@@ -2,7 +2,7 @@ import React from 'react';
 import '../styles/Hero-image.css';
 import Navbar from './Navbar';
 import Slider from 'react-slick';
-import mainImg from '../assets/images/heroimg.jpg';
+import images from '../assets/heroimages';
 import { Link } from 'react-router-dom';
 import Banner from './Banner';
 
@@ -10,16 +10,21 @@ function Heroimage() {
   const settings = {
     dots: false,
     infinite: true,
-    speed: 500,
+    speed: 2000,
     slidesToShow: 1,
     slidesToScroll: 1,
-    initialSlide: 1 }
+    initialSlide: 1,
+    autoplay: true,
+    autoplaySpeed: 10000,
+    cssEase: "linear" }
 
   return (
     <div className='hero'>
       <Slider {...settings} className='mask'>
-        <img className='main-img' src= {mainImg} alt="mainImage" />
-      </Slider> 
+        {images.map((img,index) => (
+        <img key={index} className='main-img' src= {img} alt="mainImage" />
+        ))}
+        </Slider> 
       <div className='heronav'><Navbar /></div>
       <div className='content'>
         <h1>Alternative Power</h1>

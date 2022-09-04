@@ -3,8 +3,8 @@
     position: fixed;
     bottom: 20px;
     right: 10px;
-    height: 70px;
-    width: 70px;
+    height: 55px;
+    width: 55px;
     display: grid;
     place-items: center;
     border-radius: 50%;
@@ -20,12 +20,9 @@
     border-radius: 50%;
     display: grid;
     place-items: center;
-    font-size: 35px;
+    font-size: 30px;
     color: #001a2e;
 }
 
 @media screen and (max-width: 480px) {
-    #bck-top-progress {
-        z-index: 2;
-    }
 }

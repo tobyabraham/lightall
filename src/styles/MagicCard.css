@@ -38,7 +38,7 @@
   
   .mcard::before {
     content: "";
-    width: 104%;
+    width: 100%;
     height: 102%;
     border-radius: 8px;
     position: absolute;
@@ -94,9 +94,25 @@
     margin-left: 25px;
   }
 
+  @media screen and (max-width: 840px) {
+    .mflex {
+      width: 100%;
+      margin-left: 45px;
+    }
+
+    .mcard {
+      width: 88%;
+    }
+
+    .mcard_container {
+      width: 100%;
+    }
+  }
+
   @media screen and (max-width: 480px) {
     .mflex {
       width: 100%;
+      margin-left: 26px;
     }
 
     .mcard_container {
@@ -106,4 +122,5 @@
     .mcard {
       width: 87%;
     }
+  
   }

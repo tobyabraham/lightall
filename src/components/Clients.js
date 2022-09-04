@@ -24,11 +24,11 @@ function Clients() {
         }
       },
       {
-        breakpoint: 600,
+        breakpoint: 840,
         settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
-          initialSlide: 2
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          arrows: false
         }
       },
       {

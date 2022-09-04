@@ -1,35 +1,31 @@
-import React, {useEffect, useState} from 'react';
+import React from 'react';
 import '../styles/BackToTop.css';
 
 function BackToTop() {
-
-     const [isVisible, setIsVisible] = useState(false);
-
-    const toggleVisibility = () => {
-        if (window.pageYOffset > 300) {
-            setIsVisible(true);
+    let calcScrollValue = () => {
+        let scrollProgress = document.getElementById("bck-top-progress");
+        let progressValue = document.getElementById("bck-top-progress-value");
+        let pos = document.documentElement.scrollTop;
+        let calcHeight =
+          document.documentElement.scrollHeight -
+          document.documentElement.clientHeight;
+        let scrollValue = Math.round((pos * 100) / calcHeight);
+        if (pos > 100) {
+          scrollProgress.style.display = "grid";
         } else {
-            setIsVisible(false);
+          scrollProgress.style.display = "none";
         }
-    };
-
-    const scrollToTop = () => {
-        window.scrollTo({
-            top: 0,
-            behavior: 'smooth',
+        scrollProgress.addEventListener("click", () => {
+          document.documentElement.scrollTop = 0;
         });
-    };
-
-    useEffect(() => {
-        window.addEventListener('scroll', toggleVisibility);
-        
-        return () => {
-            window.removeEventListener('scroll', toggleVisibility);
-        };
-    }, []);
+        scrollProgress.style.background = `conic-gradient(#03cc65 ${scrollValue}%, #d7d7d7 ${scrollValue}%)`;
+      };
+      
+      window.onscroll = calcScrollValue;
+      window.onload = calcScrollValue;
   return (
     <div id='bck-top-progress'>
-        <span id='bck-top-progress-value' onClick={scrollToTop}>&#x1F815;</span>
+        <span id='bck-top-progress-value'>&#x1F815;</span>
     </div>
   )
 }

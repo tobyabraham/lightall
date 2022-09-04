@@ -12,7 +12,7 @@
 
 .contact-title {
     flex: 20%;  
-    color: #002525;
+    color: #050B18;
 }
 
 .contact-title h1 {
@@ -38,7 +38,6 @@
 
 .contact-map {
     flex: 60%;
-    background-color: aquamarine;
     -webkit-clip-path: polygon(37% 0, 100% 0, 100% 100%, 0 100%);
     clip-path: polygon(37% 0, 100% 0, 100% 100%, 0 100%);
 }
@@ -48,13 +47,44 @@
 }
 
 .contact-body {
-    margin-top: 20px;
-    padding-top: 20px;
+    margin-top: 5px;
+    padding-top: 5px;
 }
 
 .contact-body > p {
     color: #002525;
     padding-top: 40px;
+}
+
+.cnt-icn {
+    margin-right: 25px;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 840px) {
+    .wrapper-contact {
+        display: flex;
+        flex-direction: row;
+        height: 53vh;
+    }
+
+    .wrapper-contact > div {
+        padding-top: 2.8%;
+        margin-right: 7.5%;
+    }
+
+    .crow {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-map {
+        flex: 60%;
+        -webkit-clip-path: none;
+        clip-path: none;
+        margin-top: 20px;
+        
+    }
 }
 
 @media screen and (max-width: 480px) {

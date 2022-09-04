@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     height: 70vh;
-    background-color: #002525;
+    background-color: #D6E9FD;
 }
 
 .service-box {
@@ -17,7 +17,7 @@
 
 .service-title h1 {
     font-weight: 700;
-    color: #ffffff;
+    color: #050B18;
     font-size: 1.8em;
 }
 
@@ -26,22 +26,25 @@
     flex-direction: row;
     justify-content: space-between;
     margin: 10px 0 10px 0;
-    flex: 20%;
+    flex: 30%;
     align-content: space-between;
 }
 
 .service-row > div {
     background-color: #f1f1f1;
-    width:270px;
+    width:350px;
     margin: 10px 0 10px 0;
     text-align: center;
     line-height: 75px;
-    font-size: 30px;
     font-size: 1em;
     height: 80%;
 }
 
-.service-box > p {
+.flip-box {
+    perspective: 1000px;
+}
+
+.flip-box-front > p {
     margin-top: 20px;
     font-size: 19px;
     font-weight: 700;
@@ -55,6 +58,85 @@
 .service-icon > img {
     width: 100px;
     height: 100px;
+}
+
+.flip-box-inner {
+    
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-box-front, .flip-box-back {
+    position: absolute;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.flip-box-back { 
+    color: #002525;
+    margin-top: 40px;
+    margin-left: 60px;
+    transform: rotateY(180deg);
+}
+
+.flip-box-back > h1 {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    width: 300px;
+}
+
+.flip-box-back > p {
+    margin-top: 40px;
+    text-align:center;
+    width: 300px;
+    line-height: 1.4em;
+}
+@media screen and (max-width: 840px) {
+    .service-wrapper {
+        position: relative;
+        height: 75vh;
+    }
+
+    .service-row {
+        flex-direction: column;
+        justify-content: flex-start;
+        flex: 40%;
+        width: 100%;
+        margin: 0;
+    }
+
+    .service-row > div {
+        background-color: #f1f1f1;
+        width:100%;
+        margin: 10px 0 20px 0;
+        line-height: 65px;
+        font-size: 30px;
+        height: 20%;
+        text-align: left;
+    }
+    .service-icon > img {
+        width: 90px;
+        height: 90px;
+    }
+
+    .service-icon {
+        margin-top: 40px;
+        float: left;
+    }
+
+    .service-box > p {
+        margin-top: 65px;
+        font-size: 25px;
+        font-weight: 700;
+        color: #002525;
+        margin-left: 120px;
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -84,6 +166,15 @@
     }
 
     .service-icon {
-        margin-top: 10px;
+        float: left;
+        margin-top: 30px;
+    }
+
+    .service-box > p {
+        margin-top: 36px;
+        font-size: 20px;
+        font-weight: 700;
+        color: #002525;
+        margin-left: 120px;
     }
 }

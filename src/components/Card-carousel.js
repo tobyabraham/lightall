@@ -1,7 +1,9 @@
-import React from 'react';
+import React, {useState} from 'react';
 import '../styles/Card-carousel.css';
 
 function Cardcarousel() {
+
+const [ccard, setccard] = useState();
 const cardsContainer = document.querySelector(".card-carousel");
 //const cardsController = document.querySelector(".card-carousel + .card-controller");
 
@@ -318,8 +320,9 @@ class CardCarousel extends DraggingEvent {
       })
     }
   }
-}
+};
 //new CardCarousel(cardsContainer)
+//ccard(cardsContainer);
   
 return (
     <div className='container'>

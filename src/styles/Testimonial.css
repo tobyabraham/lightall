@@ -17,7 +17,7 @@
 .testimonial-header h1 {
     font-weight: 700;
     font-size: 1.8em;
-    color: #002525;
+    color: #050B18;
 }
 
 .testimonial-body {
@@ -47,5 +47,5 @@
 }
 
 @media screen and (max-width: 480px) {
-    
+
 }

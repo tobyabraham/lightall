@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     height: 40vh;
-    background-color: #002525;
+    background-color: #D6E9FD;
 }
 
 .wrapper-clients > div {
@@ -17,7 +17,7 @@
 .top-client h1 {
     font-weight: 700;
     font-size: 1.8em;
-    color: #ffffff;
+    color: #050B18;
 }
 
 .middle-client {
@@ -45,6 +45,25 @@
     color: beige;
 }
 
+@media screen and (max-width: 840px) {
+    .wrapper-clients {
+        height: 30vh;
+    }
+
+    .client-logo {
+        margin-left: 25px;
+    }
+
+    .client-logo > img {
+        width: 550px;
+        height: 150px
+    }
+
+    .client-logo-cont {
+        width: 100%;
+    }
+}
+
 @media screen and (max-width: 480px) {
     .wrapper-clients {
         height: 30vh;
@@ -56,9 +75,11 @@
 
     .client-logo {
         margin-top: 1px;
+        margin-left: 16px;
     }
 
     .client-logo > img {
         height: 120px;
+        width: 200px;
     }
 }

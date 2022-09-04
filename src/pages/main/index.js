@@ -5,7 +5,7 @@ import Service from '../Our-Services/index';
 import Client from '../../components/Clients';
 import Contact from '../Contacts/index';
 import Quote from '../../components/Quote';
-import Testimonial from '../../components/Testimonial';
+//import Testimonial from '../../components/Testimonial';
 import Footer from '../../components/Footer';
 import Project from '../Projects/index';
 import SocialLinks from '../../components/SocialLinks';
@@ -21,7 +21,6 @@ function index() {
     <div><Client /></div>
     <div><Contact /></div>
     <div><Quote /></div>
-    <div><Testimonial /></div>
     <div><Footer /></div>
     <div><BackToTop /></div>
     

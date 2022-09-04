@@ -11,32 +11,50 @@ function index() {
     name="service"  
     className='service-wrapper service-box'>
       <div className='service-title'>
-        <h1>Our Services</h1>
+        <h1>What we offer</h1>
       </div>
-      <div className='service-row'>
-        <div className='service-box'>
-          <div className='service-icon'>
-            <img src={assembly} alt='assembly' />
+      <div className='service-row service-row-pad'>
+        <div className='service-box flip-box'>
+          <div className='flip-box-inner'>
+          <div className='flip-box-front'>
+            <div className='service-icon'>
+              <img src={installation} alt='installation' />
+            </div>
+            <p>Energy Optimization Delivery</p>
           </div>
-          <p>Solar PV Module Assembling</p>
-        </div>
-        <div className='service-box'>
-          <div className='service-icon'>
-            <img src={installation} alt='installation' />
+          <div className='flip-box-back'>
+          <h1>Energy Optimization Delivery</h1>
+          <p>Leveraging our in-depth technical wherewithal, we provide comprehensive load analysis and modeling in your offices & household and help customize solution design for better energy optimization whilst saving cost.</p>
           </div>
-          <p>Solar PV Design and Installation Services</p>
-        </div>
-        <div className='service-box'>
-          <div className='service-icon'>
-            <img src={growth} alt='growth' />
           </div>
-          <p>Solar Component Sales</p>
         </div>
-        <div className='service-box'>
+        <div className='service-box flip-box'>
+        <div className='flip-box-inner'>
+          <div className='flip-box-front'>
+          <div className='service-icon'>
+            <img src={installation} alt='growth' />
+          </div>
+          <p>Site Installation and Management</p>
+          </div>
+          <div className='flip-box-back'>
+          <h1>Site Installation and Management</h1>
+          <p>We place particular interest in prioritizing safety, environmental compliance and quality in construction This ensures that Skill Storm Integrated Services unique approach to deployment design ensures client’s energy satisfaction the right way.</p>
+          </div>
+          </div>
+        </div>
+        <div className='service-box flip-box'>
+        <div className='flip-box-inner'>
+          <div className='flip-box-front'>
           <div className='service-icon'>
             <img src={analysis} alt='consulting' />
           </div>
-          <p>General Consulting</p>
+          <p>Operations and Maintenance</p>
+          </div>
+          <div className='flip-box-back'>
+            <h1>Operations and Maintenance</h1>
+            <p>Reliable energy efficiency and delivery does not end at installation. At Skill Storm, we support your business and household energy demand for long term, utilizing precision monitoring, data analysis and offering end to end support and after sales services to maintain optimal energy usage.</p>
+          </div>
+          </div>
         </div>
       </div>
     </div>

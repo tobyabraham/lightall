@@ -16,9 +16,9 @@ function index() {
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
             <div className='contact-body'>
-              <p><span><FaMapMarkerAlt /></span> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              <p><span><FaPhoneAlt /></span> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              <p><span><FaEnvelopeSquare /></span> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <p><span className='cnt-icn'><FaMapMarkerAlt size={23} style = {{ color: "#050B18" }} /></span> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <p><span className='cnt-icn'><FaPhoneAlt size={23} style = {{ color: "#050B18" }} /></span> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <p><span className='cnt-icn'><FaEnvelopeSquare size={23} style = {{ color: "#050B18" }} /></span> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
           </div>
           <div className='contact-map'>
@@ -36,3 +36,4 @@ function index() {
 }
 
 export default index
+
