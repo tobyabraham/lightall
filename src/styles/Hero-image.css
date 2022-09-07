@@ -19,27 +19,30 @@
 
 .hero .content {
     position: absolute; 
-    top: 30%;
+    top: 27%;
     text-align: left;
     color: white;
     width: 60%;
+    background: rgba(1,1,1,0.6);
+    margin-left: 7.5%;
+    padding-left: 10px;
+    padding-bottom: 10px;
 }
 
 .hero .content h1 {
     font-size: 3.75em;
     font-weight: 600;
-    padding-left: 13%
+    color: #ffffff;
 }
 
 .hero .content p {
     padding-top: 15px;
-    padding-left: 13%;
 }
 
 .hero .heronav {
-    background-color: rgba(255, 254, 254, 0.7);
+    background-color: rgba(192, 192, 192, 0.8);
     position: absolute;
-    top: 11%;
+    top: 7%;
     height: 50px;
     width: 85%;
     left: 7.5%;

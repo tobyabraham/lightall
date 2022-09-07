@@ -1,0 +1,85 @@
+.wrapper-proservice {
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    background-color: #FFFFFF;
+}
+.top-proservice {
+    flex: 10%;
+    margin: 0 7.5% 0 7.5%;
+    margin-top: 1%;
+}
+
+.top-proservice h1 {
+    font-weight: 700;
+    font-size: 1.8em;
+    color: #050B18
+}
+.content-proservice{
+    flex: 80%;
+    margin: 0 7.5% 0 7.5%;
+    margin-top: 1%;
+    margin-bottom: 25px;
+}
+
+.flex-s {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.box-proservice {
+    flex: 25%;
+    background-color: rgba(192, 192, 192, 0.1);
+    color: #050B18;
+}
+
+.box-proservice h2 {
+    margin-top: 20px;
+    margin-left: 35px;
+    font-size: 1.3em;
+}
+
+.box-proservice p {
+    margin-top: 10px;
+    margin-left: 35px;
+}
+
+.box-content {
+    margin-left: 55px;
+    margin-top: 25px;
+}
+
+.box-content ul {
+    list-style-type:disc;
+}
+
+.box-content li {
+    line-height: 1.8em;
+}
+
+.servicebcontent {
+    height: 3.5em;
+    margin-right: 10px;
+}
+
+.servicebcontent p {
+    margin-left: 80px;
+    padding-top: 20px;
+    font-weight: 500;
+}
+
+.servicebcontent p:hover {
+    color: orangered;
+}
+
+.delmeth {
+    margin-top: 15px;
+    margin-left: 30px;
+}
+
+.servicebcontent img {
+    width: 3.5em;
+    float: left;
+
+}

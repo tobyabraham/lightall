@@ -31,8 +31,8 @@ function Navbar() {
 
   return (
     <div className='nav-container_la'>
-        <Link to="/">
-            <h1 className='logo_nav'>Lightall</h1>
+        <Link to="home">
+            <h1 className='logo_nav'>LIGHT-ALL</h1>
         </Link>
         <ul className={expandNavbar ? 'nav-menu-la active' : 'nav-menu-la'}>
             {links.map(({ id, link, linkName }) => (

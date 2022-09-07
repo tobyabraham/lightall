@@ -3,7 +3,7 @@ import '../styles/Hero-image.css';
 import Navbar from './Navbar';
 import Slider from 'react-slick';
 import images from '../assets/heroimages';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-scroll';
 import Banner from './Banner';
 
 function Heroimage() {
@@ -31,8 +31,8 @@ function Heroimage() {
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt </p>
       </div>
       <div className='btnwrapper'>
-        <Link to ="/contact" className='mainbtn'>
-          <span className='btnspanQ btntxtQ'>Get Quote</span>
+        <Link to ="contact" smooth duration={500} className='mainbtn'>
+          <span className='btnspanQ btntxtQ'>Contact Us</span>
           <span className='btnspanQ'>
             <svg width="66px" height="22px" viewBox="0 0 66 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsxlink="http://www.w3.org/1999/xlink">
             <g id="arrow" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">

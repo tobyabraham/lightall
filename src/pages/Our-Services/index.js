@@ -38,7 +38,7 @@ function index() {
           </div>
           <div className='flip-box-back'>
           <h1>Site Installation and Management</h1>
-          <p>We place particular interest in prioritizing safety, environmental compliance and quality in construction This ensures that Skill Storm Integrated Services unique approach to deployment design ensures client’s energy satisfaction the right way.</p>
+          <p>We place particular interest in prioritizing safety, environmental compliance and quality in construction This ensures that Lightall unique approach to deployment design ensures client’s energy satisfaction the right way.</p>
           </div>
           </div>
         </div>
@@ -52,7 +52,7 @@ function index() {
           </div>
           <div className='flip-box-back'>
             <h1>Operations and Maintenance</h1>
-            <p>Reliable energy efficiency and delivery does not end at installation. At Skill Storm, we support your business and household energy demand for long term, utilizing precision monitoring, data analysis and offering end to end support and after sales services to maintain optimal energy usage.</p>
+            <p>Reliable energy efficiency and delivery does not end at installation. At Lightall, we support your business and household energy demand for long term, utilizing precision monitoring, data analysis and offering end to end support and after sales services to maintain optimal energy usage.</p>
           </div>
           </div>
         </div>

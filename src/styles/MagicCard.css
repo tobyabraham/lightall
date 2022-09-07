@@ -6,11 +6,10 @@
   
   :root {
     --card-height: 50vh;
-    --card-width: calc(var(--card-height) / 1.5);
+    --card-width: calc(var(--card-height) / 1.4);
   }
 
   .mcard {
-    background: #191c29;
     width: var(--card-width);
     height: var(--card-height);
     padding: 3px;
@@ -27,14 +26,14 @@
   }
   
   .mcard:hover {
-    color: rgb(88 199 250 / 100%);
+    color: white;
     transition: color 1s;
   }
+
   .mcard:hover:before, .mcard:hover:after {
     animation: none;
     opacity: 0;
   }
-  
   
   .mcard::before {
     content: "";
@@ -92,6 +91,14 @@
   .mflex {
     flex: 33%;
     margin-left: 25px;
+  }
+
+  .mcard:hover p {
+    font-size: 0.5em;
+    margin-top: 220px;
+    width: 100%;
+    padding: 0.6em;
+    background-color: rgba(50, 52, 65, 0.8);
   }
 
   @media screen and (max-width: 840px) {

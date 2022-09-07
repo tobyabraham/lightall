@@ -2,30 +2,35 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 40px;
 }
 
-.nav-container_la > h1 { 
-    color: black;
+.logo_nav { 
+    color: rgb(7, 3, 70);
 }
 
 .logo_nav {
-    font-size: 1.5em;
+    font-size: 1.2em;
+    cursor: pointer;
 }
 
 .nav-menu-la {
     display: flex;
+    margin-bottom: 20px;
 }
 
 .nav-menu-la li {
     padding: 0 1rem;
-    color: black;
+    color: white;
+    margin-top: 15px;
 }
 
 .nav-menu-la li a {
     font-size: 1.0rem;
     font-weight: 500;
-    color: black;
+    color: white;
+    cursor: pointer;
 }
 
 .nav-menu-la li a:hover {
