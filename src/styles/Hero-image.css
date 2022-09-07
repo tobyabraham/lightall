@@ -107,7 +107,8 @@
     .hero .content {
         position: absolute; 
         top: 12%;
-        width: 100%;
+        width: 80%;
+
     }
     .hero .content h1 {
         font-size: 2.0em;
@@ -115,14 +116,14 @@
     }
     
     .hero .content p {
-        padding-right: 25px;
+        margin-right: 25px;
         line-height: 1.2em;
         font-size: 1.0em;
         width: 100%;
     }
 
     .hero .heronav {
-        top: 1px;
+        top: 5px;
         padding: 0 3px 3px 0;
         background-color: transparent;
         color: white;

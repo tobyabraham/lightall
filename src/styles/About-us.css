@@ -73,4 +73,11 @@
     .left {
         padding-right: 7.5%;
     }
+
+    .abtimg {
+        margin-top: 5px;
+        width: 4.6em;
+        height: 4.2em;
+        margin-left: -15px;
+    }
 }
