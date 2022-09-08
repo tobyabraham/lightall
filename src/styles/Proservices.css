@@ -1,7 +1,6 @@
 .wrapper-proservice {
     display: flex;
     flex-direction: column;
-    height: 70vh;
     background-color: #FFFFFF;
 }
 .top-proservice {
@@ -37,7 +36,7 @@
 .box-proservice h2 {
     margin-top: 20px;
     margin-left: 35px;
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 
 .box-proservice p {
@@ -56,17 +55,20 @@
 
 .box-content li {
     line-height: 1.8em;
+    margin-left: 20px;
 }
 
 .servicebcontent {
     height: 3.5em;
     margin-right: 10px;
+    margin-left: 20px;
 }
 
 .servicebcontent p {
     margin-left: 80px;
     padding-top: 20px;
     font-weight: 500;
+    font-size: 1.0em;
 }
 
 .servicebcontent p:hover {
@@ -81,5 +83,83 @@
 .servicebcontent img {
     width: 3.5em;
     float: left;
+
+}
+
+@media screen and (max-width: 840px) {
+    .top-proservice {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .flex-s {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .box-proservice {
+        padding-bottom: 20px;
+    }
+
+    .box-proservice p {
+        margin-right: 25px;
+        line-height: 1.7em;
+        font-size: 1.3em;
+    }
+
+    .box-content li{
+        line-height: 2.4em;
+        font-size: 1.3em;
+    }
+
+    .box-content ul {
+        margin-right: 20px;
+        margin-left: 40px;
+    }
+
+    .box-proservice h2 {
+        margin-top: 30px;
+        text-align: center;
+        font-size: 1.9em;
+    }
+
+    .servicebcontent {
+        margin-left: 45px;
+        height: 4.2em;
+    }
+
+    .servicebcontent p {
+        margin-left: 110px;
+    }
+
+    .servicebcontent img {
+        width: 4.2em;
+    }
+
+    .delmeth {
+        margin-top: 45px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .top-proservice {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .flex-s {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .box-proservice p {
+        margin-right: 20px;
+    }
+
+    .box-content ul {
+        margin-right: 20px;
+    }
 
 }

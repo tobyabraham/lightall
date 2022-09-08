@@ -6,12 +6,9 @@
     padding-bottom: 40px;
 }
 
-.logo_nav { 
-    color: rgb(7, 3, 70);
-}
-
 .logo_nav {
     font-size: 1.2em;
+    color: white;
     cursor: pointer;
 }
 
@@ -71,5 +68,10 @@
     .hamburger {
         display: initial;
         z-index: 4;
+    }
+
+    .logo_nav { 
+        color: white;
+        font-weight: 800;
     }
 }

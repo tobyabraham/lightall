@@ -1,8 +1,8 @@
 .wrapper-quote {
     display: flex;
     flex-direction: column;
-    height: 40vh;
     background-color: rgba(214,233,253, 0.1);
+    padding-bottom: 50px;
 }
 
 .wrapper-quote > div {
@@ -16,6 +16,7 @@
 
 .quote-body {
     flex: 80%;
+    margin-top: 3%;
 }
 
 .quote-header h1 {
@@ -55,24 +56,36 @@
 }
 
 @media screen and (max-width: 840px) {
+    .wrapper-quote > div {
+        padding-top: 3%;
+        margin-bottom: 20px;
+    }
+
     .quote-form {
         flex-direction: column;
         justify-content: space-between;
         align-content: space-between;
-        gap: 20px;
+        gap: 25px;
+        padding: 0;
+    }
+
+    .form-control {
+        padding-bottom: 1%;  
     }
 
     .slantdiv {
         width: 100%;
         transform: skewX(0deg);
+        padding: 0;
     }
 
     .slantdiv > input {
-        padding: 10px;
+        padding: 20px;
         width: 100%;
     }
 
     .quote-btn {
+        margin-top: 5px;
         width: 100%;
         padding: 15px;
         font-size: 1.3em;
@@ -80,11 +93,15 @@
 }
 
 @media screen and (max-width: 480px) {
+    .wrapper-quote {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
     .quote-form {
         flex-direction: column;
         justify-content: space-between;
         align-content: space-between;
-        gap: 20px;
+        gap: 15px;
     }
 
     .slantdiv {
