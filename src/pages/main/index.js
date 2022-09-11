@@ -8,7 +8,7 @@ import Quote from '../../components/Quote';
 //import Testimonial from '../../components/Testimonial';
 import Footer from '../../components/Footer';
 import Project from '../Projects/index';
-//import SocialLinks from '../../components/SocialLinks';
+import SocialLinks from '../../components/SocialLinks';
 import BackToTop from '../../components/BackToTop';
 import Proservice from '../../components/proServices'
 
@@ -24,7 +24,7 @@ function index() {
     <div><Quote /></div>
     <div><Footer /></div>
     <div><BackToTop /></div>
-    
+    <div><SocialLinks /></div>
     </>
   )
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/SocialLinks.css';
-import { FaLinkedin,FaGithub } from 'react-icons/fa';
+import { FaInstagram,FaFacebookSquare,FaWhatsappSquare } from 'react-icons/fa';
 import { HiOutlineMail } from "react-icons/hi";
 
 function SocialLinks() {
@@ -9,44 +9,58 @@ function SocialLinks() {
           id: 1,
           child: (
             <>
-              LinkedIn <FaLinkedin size={25} />
+              Instagram <FaInstagram size={25} />
             </>
           ),
-          href: "https://linkedin.com",
-          style: "rounded-tr-md",
+          href: "https://instagram.com",
+          style: "linkshapetop",
+          style2: "socialitems"
         },
         {
           id: 2,
           child: (
             <>
-              GitHub <FaGithub size={25} />
+              Facebook <FaFacebookSquare size={25} />
             </>
           ),
-          href: "https://github.com/theyashpatel",
+          href: "https://facebook.com",
+          style2: "socialitems"
         },
         {
           id: 3,
+          child: (
+            <>
+              Whatsapp <FaWhatsappSquare size={25} />
+            </>
+          ),
+          href: "https://web.whatsapp.com://send?text=This is whatsapp sharing example using button",
+          style2: "socialitems"
+        },
+        {
+          id: 4,
           child: (
             <>
               Mail <HiOutlineMail size={25} />
             </>
           ),
           href: "mailto:foo@gmail.com",
+          style: "linkshapebottom",
+          style2: "socialitems"
         }
       ];
   return (
     <div className='sociallnks'>
         <ul>
-            {links.map(({ id, child, href, style, download }) => (
+            {links.map(({ id, child, href, style, style2, download }) => (
                 <li 
                 key={id}
-                className="socialitems"
+                className={style2 + " " + style}
                 >
                     <a href={href}
-                    className="socialitmlnks"
-                    download={download}
-                    target="_blank"
-                    rel="noreferrer"
+                      className="socialitmlnks"
+                      download={download}
+                      target="_blank"
+                      rel="noreferrer"
                     >
                         {child}
                     </a>

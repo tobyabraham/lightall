@@ -1,8 +1,8 @@
 import React from 'react';
 import '../../styles/Contact.css';
-import { FaMapMarkerAlt } from 'react-icons/fa';
-import { FaPhoneAlt } from 'react-icons/fa';
-import { FaEnvelopeSquare } from 'react-icons/fa';
+import { FaRegMap } from 'react-icons/fa';
+import { MdPhoneInTalk } from 'react-icons/md';
+import { HiOutlineMail } from 'react-icons/hi';
 
 function index() {
   return (
@@ -16,9 +16,9 @@ function index() {
               <p>A Tradition Of Exceptional Services.</p>
             </div>
             <div className='contact-body'>
-              <p><span className='cnt-icn'><FaMapMarkerAlt size={23} style = {{ color: "#050B18" }} /></span> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              <p><span className='cnt-icn'><FaPhoneAlt size={23} style = {{ color: "#050B18" }} /></span> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              <p><span className='cnt-icn'><FaEnvelopeSquare size={23} style = {{ color: "#050B18" }} /></span> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <div><span className='cnt-icn'><FaRegMap size={30} style = {{ color: "#050B18" }} /></span><p>99 Address street, Ikeja, lagos, Nigeria.</p></div>
+              <div><span className='cnt-icn'><MdPhoneInTalk size={30} style = {{ color: "#050B18" }} /></span><p>+234 809 111 1111</p></div>
+              <div><span className='cnt-icn'><HiOutlineMail size={30} style = {{ color: "#050B18" }} /></span><p><a href="mailto:lightall@lightall.com">lightall@lightall</a></p></div>
             </div>
           </div>
           <div className='contact-map'>

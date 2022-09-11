@@ -117,4 +117,10 @@ path.two {
     width: 100%;
     overflow-x: hidden;
   }  
+
+  .mainbtn {
+    width: 200px;
+    padding: 10px 20px;
+    font-weight: 700;
+  }
 }

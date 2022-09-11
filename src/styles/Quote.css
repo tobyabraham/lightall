@@ -45,6 +45,10 @@
     border-radius: 20px;
 }
 
+.quote-btn:hover {
+    background-color: #122857; 
+}
+
 .slantdiv {
     width: 120%;
     transform: skewX(-20deg);

@@ -154,12 +154,40 @@
         gap: 40px;
     }
 
+    .box-proservice h2 {
+        font-size: 1.2em;
+    }
+
     .box-proservice p {
         margin-right: 20px;
+        font-size: 1.0em;
+        line-height: 1.3em;
     }
 
     .box-content ul {
         margin-right: 20px;
+        margin-left: 0px;
     }
 
+    .box-content li{
+        line-height: 1.4em;
+        font-size: 0.9em;
+    }
+
+    .servicebcontent {
+        margin-left: 5px;
+        height: 4.2em;
+    }
+
+    .servicebcontent p {
+        margin-left: 100px;
+    }
+
+    .servicebcontent img {
+        width: 4.2em;
+    }
+
+    .delmeth {
+        margin-top: 45px;
+    }
 }
