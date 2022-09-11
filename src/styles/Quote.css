@@ -38,7 +38,7 @@
 }
 
 .quote-btn {
-    width: 400px;
+    width: 450px;
     background: #050B18;
     border: 0;
     color: white;
@@ -56,8 +56,10 @@
 
 .slantdiv > input {
     padding: 10px;
-    width: 20rem;
+    width: 15rem;
 }
+
+.down {}
 
 @media screen and (max-width: 840px) {
     .wrapper-quote > div {
