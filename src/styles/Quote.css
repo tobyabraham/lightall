@@ -51,7 +51,6 @@
 
 .slantdiv {
     width: 120%;
-    transform: skewX(-20deg);
 }
 
 .slantdiv > input {
@@ -81,7 +80,6 @@
 
     .slantdiv {
         width: 100%;
-        transform: skewX(0deg);
         padding: 0;
     }
 
@@ -112,7 +110,6 @@
 
     .slantdiv {
         width: 100%;
-        transform: skewX(0deg);
     }
 
     .quote-btn {

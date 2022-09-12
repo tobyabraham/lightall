@@ -19,7 +19,7 @@
 
 .left p {
     color: #002525;
-    font-size: 16px;
+    font-size: 0.95em;
     padding-top: 10px;
     margin-right: 10px;
     line-height: 1.7em;
@@ -31,9 +31,10 @@
 }
 
 .article p {
-    width: 80%;
+    width: 75%;
     float: right;
     margin-right: 10px;
+    font-size: 0.95em;
 }
 
 .featimg {
@@ -46,24 +47,24 @@
 
 .abtimg {
     margin-top: 35px;
-    width: 6.2em;
+    width: 6.0em;
     height: 5.2em;
 }
 
 .bottom img {
-    width: 6.0em;
+    width: 5.8em;
     margin-top: 20px;
 }
 
 .top p {
-    width: 80%;
+    width: 83%;
     float: right;
     margin-right: 10px;
     margin-top: 25px;
 }
 
 .bottom p {
-    width: 80%;
+    width: 83%;
     float: right;
     margin-right: 10px;
     margin-top: 20px;
