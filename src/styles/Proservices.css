@@ -42,6 +42,7 @@
 .box-proservice p {
     margin-top: 10px;
     margin-left: 35px;
+    font-size: 0.95em;
 }
 
 .box-content {
@@ -56,6 +57,7 @@
 .box-content li {
     line-height: 1.8em;
     margin-left: 20px;
+    font-size: 0.95em;
 }
 
 .servicebcontent {
@@ -68,7 +70,7 @@
     margin-left: 80px;
     padding-top: 20px;
     font-weight: 500;
-    font-size: 1.0em;
+    font-size: 0.95em;
 }
 
 .servicebcontent p:hover {
