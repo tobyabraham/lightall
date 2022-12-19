@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/SocialLinks.css';
-import { FaInstagram,FaFacebookSquare,FaWhatsappSquare } from 'react-icons/fa';
+import { FaInstagram,FaFacebookSquare,FaWhatsappSquare,FaPhoneAlt } from 'react-icons/fa';
 import { HiOutlineMail } from "react-icons/hi";
 
 function SocialLinks() {
@@ -44,6 +44,16 @@ function SocialLinks() {
             </>
           ),
           href: "mailto:foo@gmail.com",
+          style2: "socialitems"
+        },
+        {
+          id: 5,
+          child: (
+            <>
+              Phone No <FaPhoneAlt size={25} />
+            </>
+          ),
+          href: "tel:+2349098542959",
           style: "linkshapebottom",
           style2: "socialitems"
         }

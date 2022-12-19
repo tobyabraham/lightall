@@ -1,11 +1,11 @@
 .banner-wrapper {
     position: absolute;
-    width: 85%;
+    width: 73%;
     height: 130px;
     border: 1px solid #D6E9FD;
     background-color: #D6E9FD;
-    left: 7.5%;
-    top: 78%;
+    margin-left: 5.7%;
+    top: 59%;
 }
 
 .banner-box {

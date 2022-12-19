@@ -1,10 +1,7 @@
 import React from 'react';
 import '../styles/Proservices.css';
-import analysisEne from '../assets/images/analysisEne.png';
-import designEne from '../assets/images/Design.png';
-import installationEne from '../assets/images/Installation.png';
-import assetsEne from '../assets/images/assets.png';
-import advisory from '../assets/images/advisory.png';
+import analysisEne from '../assets/images/slide.png';
+
 
 function proServices() {
   return (
@@ -29,13 +26,10 @@ function proServices() {
                 </div>
             </div>
             <div className='box-proservice'>
-                <h2>Project Delivery Methodology</h2>
+                <h2>Our unique service offerings and project delivery approach  </h2>
+                <p>We deliver high quality and cost-effective renewable energy solutions to our clients through our bespoke service offerings aimed at:</p>
                 <div className='delmeth'>
-                    <div className='servicebcontent'><span><img src={analysisEne} alt="Analysis" /></span><p>Analysis of Energy Needs</p></div>
-                    <div className='servicebcontent'><span><img src={designEne} alt="Design" /></span><p>Design of Energy Solution</p></div>
-                    <div className='servicebcontent'><span><img src={installationEne} alt="Installation" /></span><p>Installation of Energy Solution</p></div>
-                    <div className='servicebcontent'><span><img src={assetsEne} alt="Asset" /></span><p>Asset Management & Post Sales Support</p></div>
-                    <div className='servicebcontent'><span><img src={advisory} alt="Advisory" /></span><p>Advisory</p></div>
+                    <div className='servicebcontent'><img src={analysisEne} alt="flowchart" /></div>
                 </div>
             </div>
         </div>

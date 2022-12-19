@@ -17,7 +17,7 @@ function index() {
             </div>
             <div className='contact-body'>
               <div><span className='cnt-icn'><FaRegMap size={30} style = {{ color: "#050B18" }} /></span><p>99 Address street, Ikeja, lagos, Nigeria.</p></div>
-              <div><span className='cnt-icn'><MdPhoneInTalk size={30} style = {{ color: "#050B18" }} /></span><p>+234 809 111 1111</p></div>
+              <div><span className='cnt-icn'><MdPhoneInTalk size={30} style = {{ color: "#050B18" }} /></span><p><a href="tel:+2349098542959">+234 909 854 2959</a></p></div>
               <div><span className='cnt-icn'><HiOutlineMail size={30} style = {{ color: "#050B18" }} /></span><p><a href="mailto:lightall@lightall.com">lightall@lightall</a></p></div>
             </div>
           </div>

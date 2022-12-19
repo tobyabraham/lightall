@@ -24,8 +24,8 @@ function Navbar() {
         },
         {
             id: 4,
-            link: "contact",
-            linkName: "Contact",
+            link: "project",
+            linkName: "Project",
         }
     ];
 

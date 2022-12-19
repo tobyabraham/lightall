@@ -1,6 +1,5 @@
 import React from 'react';
 import '../styles/Hero-image.css';
-import Navbar from './Navbar';
 import Slider from 'react-slick';
 import images from '../assets/heroimages';
 import { Link } from 'react-scroll';
@@ -25,7 +24,6 @@ function Heroimage() {
         <img key={index} className='main-img' src= {img} alt="mainImage" />
         ))}
         </Slider> 
-      <div className='heronav'><Navbar /></div>
       <div className='content'>
         <h1>Alternative Power</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt </p>

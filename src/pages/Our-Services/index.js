@@ -2,7 +2,6 @@ import React from 'react';
 import '../../styles/Service.css';
 import installation from '../../assets/images/easy-installation.png';
 import growth from '../../assets/images/growth.png';
-import assembly from '../../assets/images/assembly-point.png';
 import analysis from '../../assets/images/analysis.png';
 
 function index() {
@@ -20,11 +19,11 @@ function index() {
             <div className='service-icon'>
               <img src={installation} alt='installation' />
             </div>
-            <p>Energy Optimization Delivery</p>
+            <p>Energy Optimization</p>
           </div>
           <div className='flip-box-back'>
-          <h1>Energy Optimization Delivery</h1>
-          <p>Leveraging our in-depth technical wherewithal, we provide comprehensive load analysis and modeling in your offices & household and help customize solution design for better energy optimization whilst saving cost.</p>
+          <h1>Energy Optimization</h1>
+          <p>LightAll assesses the energy needs of homes and offices to deliver optimised energy solutions</p>
           </div>
           </div>
         </div>
@@ -32,13 +31,13 @@ function index() {
         <div className='flip-box-inner'>
           <div className='flip-box-front'>
           <div className='service-icon'>
-            <img src={installation} alt='growth' />
+            <img src={growth} alt='growth' />
           </div>
-          <p>Site Installation and Management</p>
+          <p>Project Execution</p>
           </div>
           <div className='flip-box-back'>
-          <h1>Site Installation and Management</h1>
-          <p>We place particular interest in prioritizing safety, environmental compliance and quality in construction This ensures that Lightall unique approach to deployment design ensures client’s energy satisfaction the right way.</p>
+          <h1>Project Execution</h1>
+          <p>LightAll deploys energy solutions to meet client needs in line with international best practices for safety and quality</p>
           </div>
           </div>
         </div>
@@ -48,11 +47,11 @@ function index() {
           <div className='service-icon'>
             <img src={analysis} alt='consulting' />
           </div>
-          <p>Operations and Maintenance</p>
+          <p>Facility Management</p>
           </div>
           <div className='flip-box-back'>
-            <h1>Operations and Maintenance</h1>
-            <p>Reliable energy efficiency and delivery does not end at installation. At Lightall, we support your business and household energy demand for long term, utilizing precision monitoring, data analysis and offering end to end support and after sales services to maintain optimal energy usage.</p>
+            <h1>Facility Management</h1>
+            <p>LightAll offers post deployment operations and maintenance support to existing clean energy facilities.</p>
           </div>
           </div>
         </div>
