@@ -15,7 +15,7 @@ function Banner() {
             </div>
             <div className='icon-text'>
               <h3>Global Experience</h3>
-              <p>14 years global expertise</p>
+              <p>We have offered top-notch services for over a decade</p>
             </div>
           </div>
         </div>
@@ -26,7 +26,7 @@ function Banner() {
             </div>
             <div className='icon-text'>
               <h3>Trusted Services</h3>
-              <p>We are trusted by our clients.</p>
+              <p>We have served 680+ homes and offices</p>
             </div>
           </div>
         </div>
@@ -37,7 +37,7 @@ function Banner() {
             </div>
             <div className='icon-text'>
               <h3>24/7 Support</h3>
-              <p>(+234) 8002 999 000</p>
+              <p>(+234) 909 854 2959</p>
             </div>
           </div>
         </div>
