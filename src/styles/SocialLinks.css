@@ -1,7 +1,7 @@
 .sociallnks {
     display:none;
     flex-direction: column;
-    top: 30%;
+    top: 25%;
     left: 0;
     position: fixed;
 }

@@ -39,14 +39,14 @@
 
 .quote-btn {
     width: 450px;
-    background: #050B18;
+    background: #7794DC;
     border: 0;
     color: white;
     border-radius: 20px;
 }
 
 .quote-btn:hover {
-    background-color: #122857; 
+    background-color: #050B18; 
 }
 
 .slantdiv {
