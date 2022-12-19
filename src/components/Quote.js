@@ -25,7 +25,8 @@ function Quote() {
   return (
     <div className='wrapper-quote'>
         <div className='quote-header'>
-            <h1>We’re Dedicated To Build A Cleaner Future</h1>
+            <h1>Send us a message</h1>
+            <p>We are committed to providing access to renewable energy across Africa, one community at a time</p>
         </div>
         <div className='quote-body'>
             <form className='quote-form' onSubmit={onSubmitHandler}>
