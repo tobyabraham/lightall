@@ -71,6 +71,7 @@
     .hamburger {
         display: initial;
         z-index: 4;
+        margin-right: 10px;
     }
 
     .logo_nav { 

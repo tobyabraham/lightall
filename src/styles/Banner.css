@@ -63,9 +63,10 @@
 @media screen and (max-width: 840px) {
     .banner-wrapper {
         position: relative;
-        width: 100%;
-        left: 0;
-        height: 160px;
+        width: 90%;
+        margin-left: 5.2%;
+        height: 150px;
+        margin-top: -7%;
     }
 
     .banner-content {
@@ -73,29 +74,29 @@
     }
 
     .icon-wrapper {
-        width: 73px;
-        height: 73px;
+        width: 63px;
+        height: 63px;
     }
 
     .icon-wrapper > img{
-        width: 73px;
-        height: 73px;
+        width: 63px;
+        height: 63px;
     }
 
     .icon-text {
-        margin-left: 80px;
-        margin-right: 10px;
-        padding-top: 11px;
+        margin-left: 67px;
+        margin-right: 5px;
+        padding-top: 10px;
         color: #050B18;
     }
 
     .icon-text > h3 {
-        font-size: 1.2em; 
+        font-size: 1.0em; 
     }
     
     .icon-text > p {
         padding-top: 4px;
-        font-size: 1.0em;  
+        font-size: 0.9em;  
     }
 
 }
@@ -103,9 +104,9 @@
 @media screen and (max-width: 480px) {
     .banner-wrapper {
         position: relative;
-        width: 100%;
+        width: 89%;
         left: 0;
-        height: 280px;
+        height: 260px;
     }
 
     .banner-box {
@@ -125,6 +126,15 @@
     }
 
     .banner-container {
-        padding-top: 20px;
+        padding-top: 10px;
+    }
+
+    .icon-text > h3 {
+        font-size: 1.0em; 
+    }
+    
+    .icon-text > p {
+        padding-top: 4px;
+        font-size: 0.9em;  
     }
 }

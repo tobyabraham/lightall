@@ -137,7 +137,9 @@
     }
 
     .servicebcontent img {
-        width: 4.2em;
+        width: 120%;
+        height: 18em;
+        margin-left: -83px;
     }
 
     .delmeth {
@@ -151,6 +153,11 @@
         margin-bottom: 10px;
     }
 
+    .top-proservice h1 {
+        font-weight: 600;
+        font-size: 1.5em;
+    }
+
     .flex-s {
         display: flex;
         flex-direction: column;
@@ -158,12 +165,13 @@
     }
 
     .box-proservice h2 {
+        margin-left: 0;
         font-size: 1.2em;
     }
 
     .box-proservice p {
         margin-right: 20px;
-        font-size: 1.0em;
+        font-size: 0.9em;
         line-height: 1.3em;
     }
 
@@ -187,7 +195,9 @@
     }
 
     .servicebcontent img {
-        width: 4.2em;
+        width: 120%;
+        height: 9em;
+        margin-left: -29px;
     }
 
     .delmeth {

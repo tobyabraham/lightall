@@ -17,6 +17,7 @@
     height: 100%;
     width: 85%;
     margin-left: 7.5%;
+    margin-right: 7.5%;
 }
 
 .hero .content {
@@ -65,18 +66,18 @@
     }
 
     .mask {
-        height: 55vh;
+        height: 40svh;
     }
 
     .main-img {
-        height: 55vh;
+        height: 40vh;
     }
 
     .hero .content {
-        top: 20%; 
+        top: 12%; 
     }
     .hero .content h1 {
-        font-size: 3.0em;
+        font-size: 2em;
         font-weight: 600;
         
     }
@@ -84,19 +85,19 @@
     .hero .content p {
         line-height: 1.2em;
         width: 100%;
-        font-size: 1.2em;
+        font-size: 1.0em;
     }
 
     .btnwrapper {
         position: absolute;
-        top: 43%;
-        margin-left: 25px;
+        top: 28%;
+        margin-left: 55px;
     }
 }
 
 @media screen and (max-width: 480px) {
     .hero {
-        width: 100%;
+        width: 85%;
     }
 
     .mask {
@@ -110,18 +111,18 @@
     .hero .content {
         position: absolute; 
         top: 12%;
-        width: 80%;
+        width: 65%;
 
     }
     .hero .content h1 {
-        font-size: 2.0em;
+        font-size: 1.4em;
         font-weight: 600;
     }
     
     .hero .content p {
         margin-right: 25px;
         line-height: 1.2em;
-        font-size: 1.0em;
+        font-size: 0.9em;
         width: 100%;
     }
 

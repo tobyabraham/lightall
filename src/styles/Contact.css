@@ -125,6 +125,15 @@
         display: none;   
     }
 
+    .contact-title h1 {
+        font-weight: 600;
+        font-size: 1.5em;
+    }
+
+    .contact-title p {
+        font-size: 0.9em;
+    }
+
     .contact-body > p {
         padding-top: 30px;
     }

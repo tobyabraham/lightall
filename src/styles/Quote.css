@@ -70,7 +70,7 @@
         flex-direction: column;
         justify-content: space-between;
         align-content: space-between;
-        gap: 25px;
+        gap: 14px;
         padding: 0;
     }
 
@@ -84,7 +84,7 @@
     }
 
     .slantdiv > input {
-        padding: 20px;
+        padding: 18px;
         width: 100%;
     }
 
@@ -94,32 +94,47 @@
         padding: 15px;
         font-size: 1.3em;
     }
+
+    .quote-header p {
+        padding-top: 15px;
+        font-size: 1.2em;
+    }
 }
 
 @media screen and (max-width: 480px) {
     .wrapper-quote {
-        padding-top: 20px;
+        padding-top: 10px;
         padding-bottom: 20px;
     }
     .quote-form {
         flex-direction: column;
         justify-content: space-between;
         align-content: space-between;
-        gap: 15px;
+        gap: 16px;
     }
 
     .slantdiv {
         width: 100%;
     }
 
+    .quote-header h1 {
+        font-weight: 600;
+        font-size: 1.5em;
+    }
+    
+
     .quote-btn {
         width: 100%;
-        padding: 15px;
+        padding: 10px;
         font-size: 1.3em;
     }
 
     .slantdiv > input {
-        padding: 10px;
+        padding: 9px;
         width: 100%;
+    }
+
+    .quote-header p {
+        font-size: 0.9em;
     }
 }

@@ -184,6 +184,11 @@
         height: 100vh;
     }
 
+    .service-title h1 {
+        font-weight: 600;
+        font-size: 1.5em;
+    }
+
     .service-row {
         flex-direction: column;
         justify-content: flex-start;
@@ -218,7 +223,8 @@
     }
 
     .flip-box-front p {
-        font-size: 1.5em ;
+        font-size: 1.4em;
+        font-weight: 500;
     }
 
     .flip-box-back { 
