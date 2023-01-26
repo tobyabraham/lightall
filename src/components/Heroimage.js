@@ -25,8 +25,8 @@ function Heroimage() {
         ))}
         </Slider> 
       <div className='content'>
-        <h1>Alternative Power</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt </p>
+        <h1>Powering the Future</h1>
+        <p>Lightall Offers Reliable and Affordable Renewable Energy Solutions to households and businesses across Africa</p>
       </div>
       <div className='btnwrapper'>
         <Link to ="contact" smooth duration={500} className='mainbtn'>
