@@ -1,4 +1,5 @@
 import React from 'react';
+import {TbArrowBigUpLines} from 'react-icons/tb'
 import '../styles/BackToTop.css';
 
 function BackToTop() {
@@ -25,7 +26,7 @@ function BackToTop() {
       window.onload = calcScrollValue;
   return (
     <div id='bck-top-progress'>
-        <span id='bck-top-progress-value'>&#x1F815;</span>
+        <span id='bck-top-progress-value'><TbArrowBigUpLines size={24}/></span>
     </div>
   )
 }
